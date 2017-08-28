@@ -1,24 +1,10 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To setup this application, please read the following guides:
+1. Install rails 5 alongside with postgresql/oracle, rvm, and bundle
+2. Setup database on config/database.yml
+3. Get into this project directory by terminal / command prompt
+4. run the following command:
+	- bundle install
+	- rails db:create
+	- rails db:schema:load
+	- rails db:seed
+	- rails s --> jalankan server
